@@ -9,7 +9,7 @@ const cors = require('cors')
 const router = express.Router()
 router.use(bodyParser.urlencoded({ extended: false }))
 router.use(methodOverride('_method'))
-router.use(cors())
+// router.use(cors())
 
 // ROUTES
 router.get('/', (req, res) => {
